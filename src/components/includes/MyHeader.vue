@@ -22,11 +22,14 @@
                             Product Category
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><router-link :to="{name:'category'}" class="dropdown-item">one</router-link></li>
+                            <li><router-link :to="{name:'men-fashion'}" class="dropdown-item">Men Fashion</router-link></li>
+                            <li><router-link :to="{name:'women-fashion'}" class="dropdown-item">Women Fashion</router-link></li>
+                            <li><router-link :to="{name:'electronics'}" class="dropdown-item">Electronics</router-link></li>
+                            <li><router-link :to="{name:'home-products'}" class="dropdown-item">Home Products</router-link></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('account') }}">Login</a>
+                        <router-link :to="{name:'account'}" class="nav-link" >Login</router-link>
                     </li>
 
                 </ul>

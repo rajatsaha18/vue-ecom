@@ -13,10 +13,28 @@ const routes = [
     component: () => import(/* webpackChunkName: "my-cart" */ '../views/MyCartView.vue')
   },
   {
-    path: '/product-category',
-    name: 'category',
+    path: '/men-fashion',
+    name: 'men-fashion',
    
-    component: () => import(/* webpackChunkName: "category" */ '../views/CategoryView.vue')
+    component: () => import(/* webpackChunkName: "men-fashion" */ '../views/CategoryView.vue')
+  },
+  {
+    path: '/women-fashion',
+    name: 'women-fashion',
+   
+    component: () => import(/* webpackChunkName: "women-fashion" */ '../views/WomenFashionView.vue')
+  },
+  {
+    path: '/electronics',
+    name: 'electronics',
+   
+    component: () => import(/* webpackChunkName: "electronics" */ '../views/ElectronicsView.vue')
+  },
+  {
+    path: '/home-products',
+    name: 'home-products',
+   
+    component: () => import(/* webpackChunkName: "home-products" */ '../views/HomeProductsView.vue')
   },
   {
     path: '/account',

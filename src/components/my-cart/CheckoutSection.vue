@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <input type="button" class="btn btn-success mx-auto" value="Continue to Shopping" />
+                            <router-link :to="{name:'home'}" class="btn btn-success mx-auto">Continue to Shopping</router-link>
                             <p class="mt-2">SubTotal : 100</p>
                             <p>TaxTotal : 100</p>
                             <p>ShippingCost : 100</p>
