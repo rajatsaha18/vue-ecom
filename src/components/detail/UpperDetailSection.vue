@@ -14,7 +14,7 @@
                             <h3>TK. 600</h3>
                             <p>Product Quantity</p>
                             <input type="number">
-                            <a href="" class="btn btn-success mx-auto mt-2">Add To Cart</a>
+                            <router-link :to="{name:'my-cart'}" class="btn btn-success mx-auto mt-2">Add To Cart</router-link>
                         </div>
                     </div>
                 </div>
